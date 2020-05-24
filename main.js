@@ -1,16 +1,16 @@
 var cardsArray = [
   {    'name': 'SONIC',    'img': 'https://raw.githubusercontent.com/LeRingue/MatchSonic/master/img/SONIC.png',  },
   {    'name': 'SHADOW',    'img': 'https://raw.githubusercontent.com/LeRingue/MatchSonic/master/img/Shadow.bmp',  },
-  {    'name': 'STICKS,    'img': 'https://raw.githubusercontent.com/LeRingue/MatchSonic/master/img/Sticks.bmp',  },
+  {    'name': 'STICKS',    'img': 'https://raw.githubusercontent.com/LeRingue/MatchSonic/master/img/Sticks.bmp',  },
   {    'name': 'AMYROSE',    'img': 'https://raw.githubusercontent.com/LeRingue/MatchSonic/master/img/AmyRose.bmp',  },
   {    'name': 'TAILS',    'img': 'https://raw.githubusercontent.com/LeRingue/MatchSonic/master/img/Tails.bmp',  },
   {    'name': 'ZOOEY',    'img': 'https://raw.githubusercontent.com/LeRingue/MatchSonic/master/img/Zooey.bmp',  },
-  {    'name': 'KNUCKLES',    'img': https://raw.githubusercontent.com/LeRingue/MatchSonic/master/img/Knuckles.bmp',  },
-  {    'name': 'PERCI',    'img': https://raw.githubusercontent.com/LeRingue/MatchSonic/master/img/Perci.bmp',  },
-  {    'name': 'EGGMAN',    'img': 'https://raw.githubusercontent.com/LeRingue/MatchSonic/master/img/Eggman.bmp',  },
-  {    'name': 'DAVE',    'img': https://raw.githubusercontent.com/LeRingue/MatchSonic/master/img/Dave.bmp',  },
-  {    'name': 'CUBOT',    'img': https://raw.githubusercontent.com/LeRingue/MatchSonic/master/img/Cubot.bmp',  },
-  {    'name': 'ORBOT',    'img': https://raw.githubusercontent.com/LeRingue/MatchSonic/master/img/Orbot.bmp',  },
+  {    'name': 'KNUCKLES',    'img': 'https://raw.githubusercontent.com/LeRingue/MatchSonic/master/img/Knuckles.bmp',  },
+  {    'name': 'PERCI',    'img': 'https://raw.githubusercontent.com/LeRingue/MatchSonic/master/img/Perci.bmp',  },
+  {    'name': 'EGGMAN',    'img': 'https://raw.githubusercontent.com/LeRingue/MatchSonic/master/img/EGGMAN.bmp',  },
+  {    'name': 'DAVE',    'img': 'https://raw.githubusercontent.com/LeRingue/MatchSonic/master/img/Dave.bmp',  },
+  {    'name': 'CUBOT',    'img': 'https://raw.githubusercontent.com/LeRingue/MatchSonic/master/img/Cubot.bmp',  },
+  {    'name': 'ORBOT',    'img': 'https://raw.githubusercontent.com/LeRingue/MatchSonic/master/img/Orbot.bmp',  },
 ];
 
 // Duplicate cardsArray to create a match for each card
@@ -43,7 +43,7 @@ for (i = 0; i < gameGrid.length; i++) {
   var front = document.createElement('div');
   front.classList.add('front');
 	// GLS to be removed after debug
-	 front.style.backgroundImage = `url(${gameGrid[i].img})`;
+	 //front.style.backgroundImage = `url(${gameGrid[i].img})`;
 
   // Create back of card
   var back = document.createElement('div');

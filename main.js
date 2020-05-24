@@ -1,7 +1,7 @@
 var cardsArray = [
-  {    'name': 'SONIC',    'img': 'https://sonic.fandom.com/fr/wiki/Sonic_the_Hedgehog_(Sonic_Boom)?file=Sonic_Boom_Sonic_2.png?raw=true',  },
-  {    'name': 'TAILS',    'img': 'https://sonic.fandom.com/fr/wiki/Miles_%22Tails%22_Prower_(Sonic_Boom)?file=Sonic_Boom_Tails_2.png?raw=true',  },
-  {    'name': 'AMY',    'img': 'https://vignette.wikia.nocookie.net/sonicthehedgehog/images/1/12/Sonic_Boom_Amy_2.png/revision/latest',  },
+  {    'name': 'SONIC',    'img': 'https://raw.githubusercontent.com/LeRingue/MatchSonic/master/img/SONIC.png',  },
+  {    'name': 'HTML',    'img': 'https://github.com/robgmerrill/img/blob/master/html5-logo.png?raw=true',  },
+  {    'name': 'jQuery',    'img': 'https://github.com/robgmerrill/img/blob/master/jquery-logo.png?raw=true',  },
   {    'name': 'JS',    'img': 'https://github.com/robgmerrill/img/blob/master/js-logo.png?raw=true',  },
   {    'name': 'Node',    'img': 'https://github.com/robgmerrill/img/blob/master/nodejs-logo.png?raw=true',  },
   {    'name': 'Photo Shop',    'img': 'https://github.com/robgmerrill/img/blob/master/photoshop-logo.png?raw=true',  },
@@ -42,6 +42,8 @@ for (i = 0; i < gameGrid.length; i++) {
   // Create front of card
   var front = document.createElement('div');
   front.classList.add('front');
+	// GLS to be removed after debug
+	 front.style.backgroundImage = `url(${gameGrid[i].img})`;
 
   // Create back of card
   var back = document.createElement('div');

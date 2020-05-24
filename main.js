@@ -42,8 +42,7 @@ for (i = 0; i < gameGrid.length; i++) {
   // Create front of card
   var front = document.createElement('div');
   front.classList.add('front');
-	// GLS to be removed after debug
-	 //front.style.backgroundImage = `url(${gameGrid[i].img})`;
+  back.style.backgroundImage = https://raw.githubusercontent.com/LeRingue/MatchSonic/master/img/SonicBoom.jpg';
 
   // Create back of card
   var back = document.createElement('div');
